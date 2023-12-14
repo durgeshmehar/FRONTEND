@@ -1,0 +1,58 @@
+body{
+    text-align: center;
+   
+}
+
+.dark{
+    background-color: black;
+}
+
+h1 {
+    margin:3vw;
+    background-color: rgb(51, 45, 57);
+}
+h1 span{
+    color: rgb(17, 79, 59);
+    font-size: 2vw;
+    background-color: rgb(81, 159, 152);
+    border: 1px solid grey;
+   
+    padding:0.5vw 3vw;
+    margin-bottom: 5vw;
+}
+
+.button{
+
+    display: inline-flex;
+    position: relative;
+}
+
+
+img{
+    height: 2.7vw;
+    border: 2px solid rgba(206, 202, 202, 0.497);
+    border-radius: 50%;
+    padding:0.5vw;
+    cursor: pointer;
+    
+}
+
+.button .sun img:hover{
+    background-color: hsla(154, 21%, 94%,40%);
+} 
+.button .moon img:hover{
+    background-color: rgb(196, 201, 199);
+} 
+
+.moon{
+    position: absolute;
+}
+
+@media screen and (max-width :400px){
+    body{
+        text-align: left;
+        background-color: red;
+      }
+}
+
+
